@@ -8,11 +8,11 @@ import gun.skin.impl.PrimeVandal;
 
 public class Vandal extends Gun {
     public Vandal() {
-        super("Vandal", type.RIFLES, 90);
+        super("Vandal", GunType.RIFLES, 90);
+
+        super.skins.add(new ElderFlame());
+        super.skins.add(new PrimeVandal());
     }
 
-    @Override
-    public void UseSkin(Skin skin) {
-        super.UseSkin(skin);
-    }
+
 }

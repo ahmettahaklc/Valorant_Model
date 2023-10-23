@@ -16,5 +16,5 @@ public abstract class Gun {
         this.damage = damage;
     }
 
-    public void UseSkin(Skin skin){skin.start();}
+    public void useSkin(Skin skin){skin.start();}
 }

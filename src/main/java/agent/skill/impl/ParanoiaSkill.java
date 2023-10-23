@@ -6,7 +6,7 @@ public class ParanoiaSkill implements Skill {
     @Override
     public void run() {
 
-        System.out.println("Omen flash kullandı");
+        System.out.println("Omen 'Q' yeteneğini kullandı");
     }
 
 

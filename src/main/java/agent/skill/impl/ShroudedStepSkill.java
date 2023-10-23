@@ -6,6 +6,6 @@ public class ShroudedStepSkill implements Skill {
     @Override
     public void run() {
 
-        System.out.println("Omen teleport kullandı");
+        System.out.println("Omen 'C' yeteneğini kullandı");
     }
 }

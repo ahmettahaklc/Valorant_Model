@@ -5,6 +5,6 @@ import agent.skill.Skill;
 public class NovaPulseSkill implements Skill {
     @Override
     public void run() {
-        System.out.println("Astra 'Nova Darbesi' kullandı");
+        System.out.println("Astra 'Q' yeteneğini kullandı");
     }
 }

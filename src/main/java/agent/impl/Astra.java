@@ -12,7 +12,7 @@ public class Astra extends Agent {
 
     public Astra() {
 
-        super("Astra", Role.CONTROLLER);
+        super("Astra", Role.CONTROLLER,"Female");
 
         skills.add(new GravityWellSkill());
         skills.add(new NovaPulseSkill());

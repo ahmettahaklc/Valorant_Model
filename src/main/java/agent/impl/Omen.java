@@ -12,7 +12,7 @@ public class Omen extends Agent {
 
     public Omen() {
 
-        super("Omen", Role.CONTROLLER);
+        super("Omen", Role.CONTROLLER,"Unknown");
 
         skills.add(new ShroudedStepSkill());
         skills.add(new ParanoiaSkill());

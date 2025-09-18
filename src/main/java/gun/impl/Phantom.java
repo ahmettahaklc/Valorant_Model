@@ -7,6 +7,6 @@ public class Phantom extends Gun {
 
     public Phantom() {
 
-        super("Phantom", GunType.RIFLES, 85);
+        super("Phantom","Auto", GunType.RIFLES, 39,33,156,2900);
     }
 }

@@ -11,9 +11,9 @@ import agent.skill.impl.FromTheShadowsSkill;
 public class Main {
     public static void main(String[] args) {
         Skill skill1 = new DarkCoverSkill();
-        skill1.run();
+        skill1.use();
         Skill skill2 = new FromTheShadowsSkill();
-        skill2.run();
+        skill2.use();
 
         User user1 = new User("Predaking",1000,1000,10000);
         user1.buyVp(1000);

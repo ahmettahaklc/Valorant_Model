@@ -6,6 +6,6 @@ import gun.GunType;
 public class Operator extends Gun {
 
     public Operator() {
-        super("Operator", GunType.SNIPER_RIFLES,150);
+        super("Operator","Semi", GunType.SNIPER_RIFLES,150,120,255,4700);
     }
 }

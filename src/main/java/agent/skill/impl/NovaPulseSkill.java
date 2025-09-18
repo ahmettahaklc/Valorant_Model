@@ -1,10 +1,14 @@
 package agent.skill.impl;
+import agent.skill.BasicSkill;
 
-import agent.skill.Skill;
+public class NovaPulseSkill extends BasicSkill {
 
-public class NovaPulseSkill implements Skill {
+    public NovaPulseSkill() {
+        super(150);
+    }
+
     @Override
-    public void run() {
-        System.out.println("Astra 'Q' yeteneğini kullandı");
+    public void use() {
+        System.out.println("Astra using 'Q' ability");
     }
 }

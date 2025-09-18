@@ -1,8 +1,11 @@
 package agent.skill;
 
+import java.util.AbstractList;
+
 public interface Skill {
 
-     void run();
 
+
+    public abstract void use();
 
 }

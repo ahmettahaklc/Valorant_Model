@@ -1,10 +1,13 @@
 package agent.skill.impl;
+import agent.skill.UltimateSkill;
 
-import agent.skill.Skill;
+public class FromTheShadowsSkill extends UltimateSkill {
+    public FromTheShadowsSkill() {
+        super(7);
+    }
 
-public class FromTheShadowsSkill implements Skill {
     @Override
-    public void run() {
-        System.out.println("Omen 'X' yeteneğini kullandı");
+    public void use() {
+        System.out.println("Omen using 'X' ability");
     }
 }

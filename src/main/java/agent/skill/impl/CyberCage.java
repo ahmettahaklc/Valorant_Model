@@ -1,11 +1,14 @@
 package agent.skill.impl;
+import agent.skill.BasicSkill;
 
-import agent.skill.Skill;
+public class CyberCage extends BasicSkill {
 
-public class CyberCage implements Skill {
+    public CyberCage() {
+        super(100);
+    }
 
     @Override
-    public void run() {
-        System.out.println("Cypher 'Q' yeteneğini kullandı");
+    public void use() {
+           System.out.println("Cypher using 'Q' ability");
     }
 }

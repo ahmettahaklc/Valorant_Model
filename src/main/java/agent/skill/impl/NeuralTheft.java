@@ -1,10 +1,13 @@
 package agent.skill.impl;
+import agent.skill.UltimateSkill;
 
-import agent.skill.Skill;
+public class NeuralTheft extends UltimateSkill {
+    public NeuralTheft() {
+        super(7);
+    }
 
-public class NeuralTheft implements Skill {
     @Override
-    public void run() {
-        System.out.println("Cypher 'X' yeteneğini kullandı");
+    public void use() {
+        System.out.println("Cypher using 'X' ability");
     }
 }

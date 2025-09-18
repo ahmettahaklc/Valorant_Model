@@ -1,10 +1,16 @@
 package agent.skill.impl;
+import agent.skill.BasicSkill;
 
-import agent.skill.Skill;
+public class GravityWellSkill extends BasicSkill {
 
-public class GravityWellSkill implements Skill {
+
+    public GravityWellSkill() {
+        super(150);
+    }
+
     @Override
-    public void run() {
-        System.out.println("Astra 'C' yeteneğini kullandı");
+    public void use()
+    {
+        System.out.println("Astra using 'Q' ability");
     }
 }

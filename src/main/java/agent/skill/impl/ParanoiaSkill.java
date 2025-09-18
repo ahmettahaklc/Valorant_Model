@@ -1,13 +1,16 @@
 package agent.skill.impl;
 
+import agent.skill.BasicSkill;
 import agent.skill.Skill;
 
-public class ParanoiaSkill implements Skill {
-    @Override
-    public void run() {
+public class ParanoiaSkill extends BasicSkill {
 
-        System.out.println("Omen 'Q' yeteneğini kullandı");
+    public ParanoiaSkill() {
+        super(250);
     }
 
-
+    @Override
+    public void use() {
+        System.out.println("Omen using 'Q' ability");
+    }
 }

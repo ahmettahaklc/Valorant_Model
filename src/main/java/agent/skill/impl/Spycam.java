@@ -1,11 +1,14 @@
 package agent.skill.impl;
+import agent.skill.SignatureSkill;
 
-import agent.skill.Skill;
+public class Spycam extends SignatureSkill {
 
-public class Spycam implements Skill {
+    public Spycam() {
+        super(0, 15);
+    }
 
     @Override
-    public void run() {
-        System.out.println("Cypher 'E' yeteneğini kullandı");
+    public void use() {
+        System.out.println("Cypher using 'E' ability");
     }
 }

@@ -15,7 +15,7 @@ public class Main {
         Skill skill2 = new FromTheShadowsSkill();
         skill2.run();
 
-        User user1 = new User("Predaking",1000);
+        User user1 = new User("Predaking",1000,1000,10000);
         user1.buyVp(1000);
         System.out.println(user1.getVp());
         System.out.println(user1.getUsername());

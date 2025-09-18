@@ -1,11 +1,15 @@
 package agent.skill.impl;
 
+import agent.skill.BasicSkill;
 import agent.skill.Skill;
 
-public class ShroudedStepSkill implements Skill {
-    @Override
-    public void run() {
+public class ShroudedStepSkill extends BasicSkill {
+    public ShroudedStepSkill() {
+        super(100);
+    }
 
-        System.out.println("Omen 'C' yeteneğini kullandı");
+    @Override
+    public void use() {
+        System.out.println("Omen using 'C' ability");
     }
 }

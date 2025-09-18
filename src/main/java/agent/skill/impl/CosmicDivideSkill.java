@@ -1,10 +1,14 @@
 package agent.skill.impl;
+import agent.skill.UltimateSkill;
 
-import agent.skill.Skill;
+public class CosmicDivideSkill extends UltimateSkill {
 
-public class CosmicDivideSkill implements Skill {
+    public  CosmicDivideSkill() {
+        super(7);
+    }
+
     @Override
-    public void run() {
-        System.out.println("Astra 'X' yeteneğini kullandı");
+    public void use() {
+            System.out.println("Astra using 'X' ability");
     }
 }

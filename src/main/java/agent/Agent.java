@@ -1,15 +1,18 @@
 package agent;
 
+import agent.skill.BasicSkill;
 import agent.skill.Skill;
+import agent.skill.UltimateSkill;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public abstract class Agent {
 
     protected String gender;
     protected String name;
     protected Role role;
-    protected ArrayList<Skill> skills = new ArrayList<>();
+    protected ArrayList<Object> skills = new ArrayList<>();
 
     public Agent(String name, Role role,String gender) {
         this.name = name;
@@ -25,7 +28,7 @@ public abstract class Agent {
 
 
     public void useSkill(Skill skill) {
-        skill.run();
+        skill.use();
     }
 
 }

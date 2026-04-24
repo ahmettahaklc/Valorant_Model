@@ -2,11 +2,10 @@ package agent.skill;
 
 public abstract class SignatureSkill implements Skill  {
     protected int price;
-    protected int cooldown;
 
-    public SignatureSkill(int price, int cooldown) {
+    public SignatureSkill(int price) {
         this.price = price;
-        this.cooldown = cooldown;
+
     }
 
     @Override
